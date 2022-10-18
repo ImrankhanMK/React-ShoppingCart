@@ -1,0 +1,100 @@
+
+:root{
+    --primary-color:#ff1a75;
+}
+.login{
+    margin-block: 5%;
+    margin-inline: 10%; 
+}
+.login-div{
+    display: flex;
+    text-align: center;
+    width:100%;
+    border:3px solid var(--primary-color);
+    border-right:30px solid var(--primary-color);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.login-div-left{
+    background-color: var(--primary-color);
+    text-align: left;
+    padding: 20px;
+    flex: 1;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;   
+}
+.login-div-left img{
+    height: 280px;
+}
+.login-div-left h1{
+    color: white;
+    font-family: 'Times New Roman', serif ;
+}
+.login-div-left p{
+    color: white;
+}
+.login-div-right{
+    flex: 3;
+    /* border: 3px solid var(--primary-color); */
+}
+.login-div-right input{
+    border:none;
+    border-bottom: 1px solid var(--primary-color);
+    width:40%;
+    margin: 3%;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    color: var(--primary-color);
+}
+
+.login-div-right input:focus{
+    border:1px solid var(--primary-color);
+    outline: none;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.login-div-right input:focus::placeholder{
+    color: white;
+}
+.login-div-right p{
+    font-size: 15px;
+    margin-block: 3%;
+}
+.login-div-right button{
+    width: 40%;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 30px;
+    margin-block: 3%;
+}
+.back-link:hover{
+    text-decoration: none;
+    color: white;
+}
+.link-div{
+    float: right;
+    background-color: var(--primary-color);
+    padding: 5px;
+    color: white;
+    border-top-left-radius: 15px;
+}
+.link-div a{
+    color: white;
+    font-size:16px;
+}
+.register-link{
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.register-link:hover{
+    border:2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+    text-decoration: none;
+    font-size: bold;
+}

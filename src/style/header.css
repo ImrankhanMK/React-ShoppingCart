@@ -1,0 +1,37 @@
+:root{
+    --primary-color:#ff1a75;
+  }
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    height: 80px;
+}
+.header h1{
+    color: white;
+    margin-bottom: 0px;
+    padding-block: 10px;
+}
+.a-div{
+    padding:15px;
+}
+.a-div a{
+    border:1px solid white;
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-inline:5px;
+    /* padding-block: 2px; */
+    padding-inline: 50px;
+    background-color:white ;
+    height: fit-content;
+    
+}
+.a-div a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #ff1a75;
+    border: 1px solid white;
+}
+

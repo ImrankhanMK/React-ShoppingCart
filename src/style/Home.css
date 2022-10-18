@@ -1,0 +1,11 @@
+:root{
+  --primary-color:#ff1a75;
+}
+.footer{
+  margin-bottom: 0px;
+  color: white;
+  padding-block: 5px;
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 3rem;
+}

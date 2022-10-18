@@ -1,0 +1,36 @@
+:root{
+    --primary-color:#ff1a75;
+}
+.welcome{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.welcome h1{
+    color: white;
+}
+.welcome h1 span{
+    color:  #ffff00;
+}
+#logout{
+    height: fit-content;
+    color: Green ;
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: white;
+}
+#delete{
+    height: fit-content;
+    color: red;
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: white;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
